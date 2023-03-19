@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "about_mes",
+  "collectionName": "about_joes",
   "info": {
-    "singularName": "about-me",
-    "pluralName": "about-mes",
-    "displayName": "About Me"
+    "singularName": "about-joe",
+    "pluralName": "about-joes",
+    "displayName": "About Joe"
   },
   "options": {
     "draftAndPublish": true

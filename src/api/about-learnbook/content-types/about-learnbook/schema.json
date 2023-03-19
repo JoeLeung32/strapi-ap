@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_learnbooks",
+  "info": {
+    "singularName": "about-learnbook",
+    "pluralName": "about-learnbooks",
+    "displayName": "About Learnbook"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    }
+  }
+}
