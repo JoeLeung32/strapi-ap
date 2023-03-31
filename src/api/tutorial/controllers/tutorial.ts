@@ -18,11 +18,13 @@ module.exports = createCoreController('api::tutorial.tutorial', ({strapi}) => ({
                     id: foundItem.createdBy.id,
                     firstname: foundItem.createdBy.firstname,
                     lastname: foundItem.createdBy.lastname,
+                    username: foundItem.createdBy.username,
                 };
                 data[index].attributes.updatedBy = {
                     id: foundItem.updatedBy.id,
                     firstname: foundItem.updatedBy.firstname,
                     lastname: foundItem.updatedBy.lastname,
+                    username: foundItem.createdBy.username,
                 };
             })
         );
